@@ -1,2 +1,9 @@
-# mysterry
-[ mySterry ] Sterry protocol framework for MySQL stored procedures &amp; functions
+```
+============___=_=====================
+  _ __ _  _/ __| |_ ___ _ _ _ _ _  _ 
+ | '  \ || \__ \  _/ -_) '_| '_| || |
+ |_|_|_\_, |___/\__\___|_| |_|  \_, |
+=======|__/=====================|__/==
+ Sterry protocol framework for MySQL
+======================================
+```
