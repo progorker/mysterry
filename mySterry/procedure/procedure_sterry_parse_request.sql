@@ -52,6 +52,7 @@ begin
     if p_json_data = '' then
       set p_json_data = '{}';
     end if;
+    set p_json_data = sterry_unescape(p_json_data);
   end if;
   if v_idx > 0 then
     set p_path = trim( substring_index( v_tmp, '\r\n', 1 ) );
