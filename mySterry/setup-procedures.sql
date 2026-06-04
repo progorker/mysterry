@@ -8,3 +8,4 @@
  */
 
 \. ./procedure/procedure_sterry_parse_request.sql
+\. ./procedure/procedure_sterry_merge_request.sql

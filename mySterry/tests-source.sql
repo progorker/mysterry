@@ -59,6 +59,10 @@ set @v_name = 'sterry_parse_request';
 set @v_data = '/procedure/procedure_sterry_parse_request.sql';
 call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
 
+set @v_name = 'sterry_merge_request';
+set @v_data = '/procedure/procedure_sterry_merge_request.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
 
 set @v_name = 'test_requests';
 set @v_data = '/tst/procedure_test_requests.sql';
