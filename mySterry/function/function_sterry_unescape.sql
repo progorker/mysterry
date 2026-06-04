@@ -27,6 +27,7 @@ begin
   set v_output = replace( v_output, '__tb__', '\t' );
   set v_output = replace( v_output, '__td__', '`' );
   set v_output = replace( v_output, '__sl__', '\\' );
+  set v_output = replace( v_output, '_._us_._', '_' );
   return v_output;
 end;$$
 delimiter ;

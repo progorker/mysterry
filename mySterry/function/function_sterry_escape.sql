@@ -20,6 +20,7 @@ begin
   else
     set v_output = p_input;
   end if;
+  set v_output = replace( v_output, '_', '_._us_._' );
   set v_output = replace( v_output, '''', '__sq__' );
   set v_output = replace( v_output, '\"', '__dq__' );
   set v_output = replace( v_output, '\n', '__nl__' );
