@@ -24,6 +24,7 @@ source ./setup-tests.sql
 
 
 call test_requests( @g_token, @g_suite_code );
+call test_menus( @g_token, @g_suite_code, @g_tested_db );
 
 
 call mytestorproxy.api_testor_finish( @g_token, @g_suite_id );

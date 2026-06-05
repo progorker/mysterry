@@ -9,3 +9,6 @@
 
 \. ./procedure/procedure_sterry_parse_request.sql
 \. ./procedure/procedure_sterry_merge_request.sql
+\. ./procedure/procedure_sterry_proxy_mytestorproxy.sql
+\. ./procedure/procedure_sterry_proxy.sql
+\. ./procedure/procedure_sterry_parse_menu.sql

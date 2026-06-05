@@ -9,3 +9,8 @@
 
 \. ./function/function_sterry_escape.sql
 \. ./function/function_sterry_unescape.sql
+\. ./function/function_sterry_valid_host.sql
+\. ./function/function_sterry_valid_port.sql
+\. ./function/function_sterry_valid_auth.sql
+\. ./function/function_sterry_valid_json.sql
+\. ./function/function_sterry_valid_path.sql

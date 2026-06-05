@@ -8,3 +8,4 @@
  */
 
 \. ./tst/procedure_test_requests.sql
+\. ./tst/procedure_test_menus.sql

@@ -55,6 +55,26 @@ set @v_name = 'sterry_unescape';
 set @v_data = '/function/function_sterry_unescape.sql';
 call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
 
+set @v_name = 'sterry_valid_host';
+set @v_data = '/function/function_sterry_valid_host.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'sterry_valid_port';
+set @v_data = '/function/function_sterry_valid_port.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'sterry_valid_auth';
+set @v_data = '/function/function_sterry_valid_auth.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'sterry_valid_json';
+set @v_data = '/function/function_sterry_valid_json.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'sterry_valid_path';
+set @v_data = '/function/function_sterry_valid_path.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
 set @v_name = 'sterry_parse_request';
 set @v_data = '/procedure/procedure_sterry_parse_request.sql';
 call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
@@ -63,8 +83,20 @@ set @v_name = 'sterry_merge_request';
 set @v_data = '/procedure/procedure_sterry_merge_request.sql';
 call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
 
+set @v_name = 'sterry_proxy';
+set @v_data = '/procedure/procedure_sterry_proxy.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'sterry_proxy_mytestorproxy';
+set @v_data = '/procedure/procedure_sterry_proxy_mytestorproxy.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
 
 set @v_name = 'test_requests';
 set @v_data = '/tst/procedure_test_requests.sql';
+call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
+
+set @v_name = 'test_menus';
+set @v_data = '/tst/procedure_test_menus.sql';
 call mytestorproxy.api_testor_option( @g_token, @g_suite_id, @v_data, concat('src:', @v_name), false );
 
