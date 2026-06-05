@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_menus
+   test: exception
+message: [exception] test (error) is failed. \nMessage: PROCEDURE mytestortested.sterry_parse_menu does not exist\n
+

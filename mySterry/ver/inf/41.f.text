@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_menus
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Row size too large. The maximum row size for the used table type, not counting BLOBs, is 65535. This includes storage overhead, check the manual. You have to change some columns to TEXT or BLOBs\n
+

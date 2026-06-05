@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_menus
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Field 'path' doesn't have a default value\n
+

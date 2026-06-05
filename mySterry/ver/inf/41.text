@@ -1,0 +1,16 @@
+*************************** 1. row ***************************
+   case: test_menus
+   test: exception
+message: [exception] test (error) is failed. \nMessage: Row size too large. The maximum row size for the used table type, not counting BLOBs, is 65535. This includes storage overhead, check the manual. You have to change some columns to TEXT or BLOBs\n
+*************************** 1. row ***************************
+      version: 41
+       status: RED
+         code: mysterry
+           id: 2
+success_count: 6
+ failed_count: 1
+   test_count: 7
+   case_count: 2
+*************************** 1. row ***************************
+                        To re-print: : $) call api_testor_result('_token_', 2);
+To get source file of [a] test case: : $) call api_testor_source('_token_', 2, 'a');

@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_menus
+   test: type.1__exception
+message: [type.1__exception] test (error) is failed. \nMessage: Unknown column 'p_field_a' in 'field list'\n
+

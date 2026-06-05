@@ -1,0 +1,6 @@
+
+*************************** 1. row ***************************
+   case: test_menus
+   test: exception.1
+message: [exception.1] test (error) is failed. \nMessage: Fresh test case is created!\n
+
